@@ -62,13 +62,13 @@
     <Compile Include="Request\LocationMessageRequest.cs" />
     <Compile Include="Request\MessageRequest.cs" />
     <Compile Include="Request\ShortVideoMessageRequest.cs" />
+    <Compile Include="Request\TextMessageRequest.cs" />
     <Compile Include="Request\VideoMessageRequest.cs" />
     <Compile Include="Request\VoiceMessageRequest.cs" />
     <Compile Include="Response\MessageResponse.cs" />
     <Compile Include="Response\NewsMessageResponse.cs" />
     <Compile Include="Response\TextMessageResponse.cs" />
     <Compile Include="SignatureModel.cs" />
-    <Compile Include="Request\TextMessageRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
