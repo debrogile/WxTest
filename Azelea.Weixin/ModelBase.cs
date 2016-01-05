@@ -1,10 +1,9 @@
-﻿namespace Azelea.WxTest.ViewModels
+﻿namespace Azelea.Weixin
 {
-    public class RequestViewModel
+    public abstract class ModelBase
     {
         public string Signature { get; set; }
         public string Timestamp { get; set; }
         public string Nonce { get; set; }
-        public string Echostr { get; set; }
     }
 }

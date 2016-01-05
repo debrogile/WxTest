@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azelea.WxTest", "Azelea.WxTest\Azelea.WxTest.csproj", "{BB0FB4FD-9745-40CE-8DC0-F9AEA69764B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azelea.Weixin", "Azelea.Weixin\Azelea.Weixin.csproj", "{74DBB28F-D3EE-425D-A9DD-C5FAD88A8A03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB0FB4FD-9745-40CE-8DC0-F9AEA69764B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0FB4FD-9745-40CE-8DC0-F9AEA69764B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0FB4FD-9745-40CE-8DC0-F9AEA69764B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0FB4FD-9745-40CE-8DC0-F9AEA69764B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DBB28F-D3EE-425D-A9DD-C5FAD88A8A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DBB28F-D3EE-425D-A9DD-C5FAD88A8A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DBB28F-D3EE-425D-A9DD-C5FAD88A8A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DBB28F-D3EE-425D-A9DD-C5FAD88A8A03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

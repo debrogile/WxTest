@@ -11,7 +11,7 @@ namespace Azelea.WxTest
 
             routes.MapRoute(
                 name: "Default",
-                url: "{action}/{id}",
+                url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Weixin", action = "Index", id = UrlParameter.Optional }
             );
         }

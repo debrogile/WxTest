@@ -9,7 +9,6 @@ namespace Azelea.WxTest
         protected void Application_Start(object sender, EventArgs e)
         {
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            //GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
 }

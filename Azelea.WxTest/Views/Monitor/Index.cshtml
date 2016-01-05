@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>微信消息监控</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+        var app = angular.module("app", []);
+
+        app.controller("Main", function ($scope, $timeout) {
+            $scope.messages = [];
+
+            var hub = $.connection.monitorHub;
+            hub.client.showMessage = function (msg) {
+                $timeout(function () {
+                    $scope.messages.push(msg);
+                });
+            };
+            $.connection.hub.start();
+        });
+    </script>
+</head>
+<body ng-app="app" ng-controller="Main">
+    <div class="container">
+        <pre ng-repeat="message in messages">{{message|json}}</pre>
+    </div>
+</body>
+</html>
